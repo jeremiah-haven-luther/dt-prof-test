@@ -12,3 +12,5 @@ To push this file to GitHub via Git:
    command.
  - I can push this commit from my local repository to the remote (GitHub) repository with the `git
    push` command, typing in my user credentials along the way.
+
+...and now this is an edit from within the GitHub Web App
