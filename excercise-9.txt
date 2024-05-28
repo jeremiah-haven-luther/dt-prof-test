@@ -3,7 +3,10 @@ To push this file to GitHub via Git:
    adding the remote repository to my local system (because it already happened when I cloned it).
    I can verify this with the `git remote -v`, which reports the url of my GitHub repository
  - I can stage this file (and version of this file) for a commit using the `git add excercise-9.txt`
+ - Before I commit, I need to tell my local git who I am (it will complain otherwise). I can do this
+   with the `git config --global user.email "haveje03@luther.edu"` and `git config --global user.name 
+   "jeremiah-haven-luther"` commands.
  - I can create a commit with a commit message with the `git commit -m "commit for excercise 9"` 
    command.
  - I can push this commit from my local repository to the remote (GitHub) repository with the `git
-   push` command.
+   push` command, typing in my user credentials along the way.
